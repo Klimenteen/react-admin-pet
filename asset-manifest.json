@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-admin-pet/static/css/main.311b918b.css",
+    "main.js": "/react-admin-pet/static/js/main.c596b5d3.js",
+    "static/media/img3.png": "/react-admin-pet/static/media/img3.6fcf7ef718e0500849c4.png",
+    "static/media/img2.png": "/react-admin-pet/static/media/img2.4e58130f7278ac2933b6.png",
+    "static/media/img1.png": "/react-admin-pet/static/media/img1.1a8e3db34aec2a7a1ff3.png",
+    "index.html": "/react-admin-pet/index.html",
+    "main.311b918b.css.map": "/react-admin-pet/static/css/main.311b918b.css.map",
+    "main.c596b5d3.js.map": "/react-admin-pet/static/js/main.c596b5d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.311b918b.css",
+    "static/js/main.c596b5d3.js"
+  ]
+}
