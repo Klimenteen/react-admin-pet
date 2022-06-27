@@ -4,7 +4,6 @@ import {
   UilUsersAlt,
   UilPackage,
   UilChart,
-  UilSignOutAlt,
   UilUsdSquare,
   UilMoneyWithdrawal,
 } from "@iconscout/react-unicons";
@@ -89,5 +88,29 @@ export const CardsData = [
         data: [10, 25, 15, 30, 12, 15, 20],
       },
     ],
+  },
+];
+
+
+
+//----------------- Recent Update Card Data -----------------
+export const UpdatesData = [
+  {
+    img: img1,
+    name: "Monka",
+    noti: "has ordered 100kg of bananas",
+    time: "10 seconds ago",
+  },
+  {
+    img: img2,
+    name: "Big Monkey",
+    noti: "has received 10kg of bananas. has received 10kg of bananas.",
+    time: "20 minutes ago",
+  },
+  {
+    img: img3,
+    name: "Сhimpanzee",
+    noti: "has ordered 1000kg of bananas. has received 10kg of bananas.",
+    time: "3 hours ago",
   },
 ];

@@ -1,0 +1,14 @@
+@media screen and (max-width: 1200px) {
+  .customer-review {
+    width: 95%;
+  }
+}
+.customer-review {
+ padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .customer-review {
+    width: 100%;
+  }
+}

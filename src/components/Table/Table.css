@@ -1,0 +1,41 @@
+.MuiTableRow-root > * {
+  padding: 10px;
+}
+.MuiTableRow-root.MuiTableRow-head > * {
+  font-weight: bold !important;
+}
+
+
+.main__table td,
+th {
+  border: none !important;
+}
+.main__table:first-child {
+  border-radius: 0.7rem !important;
+}
+.main__table-status {
+  padding: 8px;
+  border-radius: 9px;
+}
+.main__table-details {
+  color: #00b5ff !important;
+}
+@media screen and (max-width: 1200px) {
+  .main__table {
+    width: 170%;
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-height:600px) {
+
+  
+}
+@media screen and (max-width: 768px) {
+  .main__table {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+  }
+}
