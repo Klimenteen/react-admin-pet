@@ -13,10 +13,10 @@ function createData(name, trackingId, date, status) {
 }
 
 const rows = [
-  createData("Lasania Chiken Fri", 18908424, "2 March 2022", "Approved"),
-  createData("Big Baza Bang ", 18908424, "2 March 2022", "Pending"),
-  createData("Mouth Freshner", 18908424, "2 March 2022", "Approved"),
-  createData("Cupcake", 18908421, "2 March 2022", "Delivered"),
+  createData("Big Banana Pie", 80085, "20 April 2022", "Approved"),
+  createData("100kg of Bananas", 80085, "20 April 2022", "Pending"),
+  createData("Big Fresh Coconut", 80085, "20 April 2022", "Approved"),
+  createData("Cupcake", 80085, "20 April 2022", "Delivered"),
 ];
 
 //status color
@@ -71,7 +71,7 @@ export default function BasicTable() {
                     {row.status}
                   </span>
                 </TableCell>
-                <TableCell align="left" className="main__table-details">
+                <TableCell align="left" className="main__table-details" style={{cursor:'pointer'}}>
                   Detail
                 </TableCell>
               </TableRow>

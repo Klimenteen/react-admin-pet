@@ -15,3 +15,9 @@
     align-items: center;
   }
 }
+/* 
+@media screen and (min-height: 900px) {
+  .main-dash {
+    padding: 5rem;
+  }
+} */

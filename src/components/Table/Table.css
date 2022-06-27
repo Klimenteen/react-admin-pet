@@ -5,7 +5,10 @@
   font-weight: bold !important;
 }
 
-
+.main__table{
+  height: 100%;
+  max-height: 350px;
+}
 .main__table td,
 th {
   border: none !important;

@@ -11,9 +11,10 @@ const RightSide = () => {
           <h3>Updates</h3>
           <Updates />
         </div>
-
-        <h3> Customer Review</h3>
-        <CustomerReview />
+        <div>
+          <h3> Customer Review</h3>
+          <CustomerReview />
+        </div>
       </div>
     </div>
   );
